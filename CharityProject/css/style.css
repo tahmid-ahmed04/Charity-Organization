@@ -1,0 +1,438 @@
+.topbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(17, 48, 95);
+    color: white !important;
+    font-size: 18px !important;
+    padding: 7px;
+    font-family: "Arima", system-ui;
+}
+.social-link{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.contact-sm-title{
+    margin-right: 20px;
+}
+.contact-address{
+    display: flex;
+    gap: 30px;
+}
+
+
+.navbar {
+    background-color: rgb(255, 248, 216);
+    padding: 20px;
+}
+.navbar-brand {
+    margin-left: 60px;
+    font-size: 28px;
+    font-family: "Pacifico", cursive;
+}
+.nav-item {
+    font-size: 18px;
+    margin-right: 20px;
+    font-weight: 500;
+}
+.donate-btn {
+    text-decoration: none;
+    background-color: rgb(255, 81, 0);
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    margin-right: 60px;
+    font-size: 18px;
+    font-family: "Arima", system-ui;
+    font-weight: 600;
+}
+.donate-btn:hover {
+    background-color: white;
+    color: rgb(255, 81, 0);
+}
+
+
+
+.top-banner{
+    background-image: url(/images/poorchild.jpg);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-banner-details {
+    width: 450px;
+    position: relative;
+    left: 200px;
+    top: 200px;
+}
+.top-banner-caption {
+    color: white;
+    font-family: "Arima", system-ui;
+    font-weight: 900;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+.top-banner-subdetail {
+    color: white;
+    font-family: "Arima", system-ui;
+    font-size: 23px;
+    margin-bottom: 50px;
+}
+.donate-btn-2 {
+    text-decoration: none;
+    background-color: rgb(255, 81, 0);
+    color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-family: "Arima", system-ui;
+    font-weight: 600;
+    margin-right: 100px;
+}
+.donate-btn-2:hover {
+    background-color: white;
+    color: rgb(255, 81, 0);
+}
+.our-project-btn {
+    text-decoration: none;
+    border-top: 2px rgb(255, 81, 0) solid;
+    border-bottom: 2px rgb(255, 81, 0) solid;
+    color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-family: "Arima", system-ui;
+    font-weight: 600;
+}
+.our-project-btn:hover {
+    border-top: 2px white solid;
+    border-bottom: 2px white solid;
+    color: rgb(255, 81, 0);
+}
+
+
+.top-banner-cards {
+    display: grid;
+    grid-template-rows: 420px;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 30px;
+    margin-top: -120px;
+    text-align: center;
+}
+.top-banner-single-card {
+    background-color: rgb(17, 48, 95);
+    padding: 30px;
+    border-radius: 30px;
+}
+.top-banner-cards-item-title {
+    font-size: 25px;
+    font-family: "Arima", system-ui;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+.top-banner-cards-item-title:hover {
+    color: orange;
+    cursor: pointer;
+}
+.top-banner-cards-item-para {
+    font-family: "Arima", system-ui;
+    font-size: 17px;
+    text-align: left;
+    color: white;
+}
+.book-icon {
+    font-size: 100px;
+    color: white;
+}
+.coin-icon {
+    font-size: 100px;
+    color: white;
+}
+.house-icon {
+    font-size: 100px;
+    color: white;
+}
+
+
+
+.our-mission-title {
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    margin-top: 70px;
+    font-weight: 600;
+    font-family: "Arima", system-ui;
+}
+.our-mission-details {
+    width: 780px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Arima", system-ui;
+    font-size: 18px;
+}
+.help-banner {
+    background-image: url(/images/poorchild2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.help-banner-content {
+    width: 600px;
+    position: relative;
+    top: 170px;
+    left: 170px;
+}
+.help-banner-capition {
+    color: white;
+    font-size: 50px;
+    font-weight: 700px;
+    font-family: "Arima", system-ui;
+}
+.help-banner-details {
+    color: white;
+    font-family: "Arima", system-ui;
+    font-size: 18px;
+}
+.event-btn{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 81, 0);
+    padding: 13px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-family: "Arima", system-ui;
+    font-weight: 600;
+    position: relative;
+    top: 60px;
+    left: 1000px;
+}
+.event-btn:hover {
+    text-decoration: none;
+    color: rgb(255, 81, 0);
+    background-color: white;
+}
+
+
+
+.about-us-caption {
+    text-align: center;
+    font-size: 65px;
+    font-weight: 600;
+    color: rgb(56, 59, 58);
+    font-family: "Arima", system-ui;
+    margin-top: 50px;
+}
+.about-us-details {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Arima", system-ui;
+    width: 900px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+.about-us-card-item {
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+    border-radius: 20px;
+}
+.about-us-card-caption {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Arima", system-ui;
+}
+.key-icons {
+    font-size: 100px;
+    color: red;
+}
+.graph-up-icons {
+    font-size: 70px;
+    color: darkgreen;
+}
+.water-icons {
+    font-size: 80px;
+    color: rgb(0, 143, 148);
+}
+
+
+.welcome-charity {
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+    margin-top: 60px;
+}
+.welcome-charity-caption {
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+    font-family: "Arima", system-ui;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.welcome-charity-main {
+    margin-top: 30px;
+}
+.welcome-charity-item {
+    align-content: center;
+}
+.welcome-charity-item-caption {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Arima", system-ui;
+    text-align: left;
+}
+.welcome-charity-item-details {
+    font-size: 18px;
+    font-family: "Arima", system-ui;
+    text-align: left;
+}
+
+
+
+.our-causes {
+    margin-top: 50px;
+}
+.our-causes-title {
+    font-size: 65px;
+    font-weight: 600;
+    font-family: "Arima", system-ui;
+    text-align: center;
+}
+.our-causes-motto {
+    text-align: center;
+    font-family: "Arima", system-ui;
+    font-size: 20px;
+}
+.our-causes-content-body {
+    margin-bottom: 50px;
+}
+.our-causes-item {
+    background-color: rgb(245, 245, 245);
+    height: 400px;
+    margin-bottom: 20px;
+}
+.our-causes-item-caption {
+    font-size: 23px;
+    font-weight: 600;
+    font-family: "Arima", system-ui;
+    margin-top: 30px;
+}
+.our-causes-see-more-btn {
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    font-size: 18px;
+    font-family: "Arima", system-ui;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    font-weight: 600;
+}
+.our-causes-see-more-btn:hover {
+    color: orangered;
+    background-color: white;
+}
+
+
+
+.our-projects {
+    background-image: url(/images/poorpeople.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    height: 500px;
+    align-content: center !important;
+}
+.our-projects-caption {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Arima", system-ui;
+    color: orange;
+    text-align: left;
+}
+.our-projects-details {
+    color: white;
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Arima", system-ui;
+}
+
+
+
+
+.event-title {
+    font-size: 65px;
+    font-weight: 600;
+    font-family: "Arima", system-ui;
+    text-align: center;
+    margin-top: 70px;
+}
+.event-items {
+    background-color: rgb(245, 245, 245);
+    height: 630px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.event-date {
+    font-weight: 600px;
+    font-family: "Pacifico", cursive;
+    font-size: 18px;
+    text-align: left;
+    color: red;
+    margin-top: 30px;
+}
+.event-name {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Arima", system-ui;
+    color: orangered;
+    text-align: left;
+}
+.event-location {
+    font-size: 18px;
+    font-family: "Arima", system-ui;
+    font-weight: 600;
+    text-align: left;
+}
+.event-details {
+    text-align: left;
+    font-family: "Arima", system-ui;
+}
+.see-more-btn {
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: 600px;
+    font-family: "Arima", system-ui;
+}
+.see-more-btn:hover {
+    background-color: white;
+    color: orangered;
+}
+
+
+.footer-copyright {
+    font-size: 18px;
+    color: white;
+    font-family: "Arima", system-ui;
+    text-align: center;
+    background-color: rgb(17, 48, 95);
+    padding: 10px;
+    margin-top: 50px;
+}
+
+
+
